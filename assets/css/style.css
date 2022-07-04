@@ -195,6 +195,92 @@ NAVBAR
 NAVBAR END
 */
 
+
+/* 
+HERO SECTION 
+*/
+.hero-section {
+	background-color: var(--Very-Light-Gray);
+}
+
+.hero-container {
+	max-width: 1440px;
+	margin-right: auto;
+}
+
+.hero-image {
+	height: 50vh;
+	width: 100%;
+	background-image: url("/assets/images/bg-intro-mobile.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: hidden;
+	position: relative;
+}
+
+.hero-image img {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: -140px;
+}
+
+.hero-details {
+	padding-inline: 2em;
+	padding-bottom: 3rem;
+	text-align: center;
+	max-width: 550px;
+}
+
+.hero-details h1 {
+	color: var(--Dark-Blue);
+	font-size: 2.2rem;
+	font-weight: 400;
+	margin-top: 2rem;
+	margin-bottom: 1.3rem;
+}
+
+.hero-details p {
+	color: var(--Grayish-Blue);
+	line-height: 1.3rem;
+	margin-bottom: 0.8rem;
+}
+
+@media (min-width: 900px) {
+	.hero-container {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+
+	.hero-image {
+		height: auto;
+		background-image: url("/assets/images/bg-intro-desktop.svg");
+		background-size: auto;
+		overflow: visible;
+		width: 50%;
+	}
+
+	.hero-image img {
+		width: 90%;
+		display: flex;
+		justify-content: end;
+		position: absolute;
+		top: -180px;
+	}
+
+	.hero-details {
+		text-align: start;
+	}
+}
+
+/* 
+HERO SECTION END
+*/
+
+
+
 /* 
 WHY CHOOSE EASYBANK SECTION 
 */

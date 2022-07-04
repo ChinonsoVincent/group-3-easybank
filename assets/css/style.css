@@ -195,7 +195,6 @@ NAVBAR
 NAVBAR END
 */
 
-
 /* 
 HERO SECTION 
 */
@@ -278,8 +277,6 @@ HERO SECTION
 /* 
 HERO SECTION END
 */
-
-
 
 /* 
 WHY CHOOSE EASYBANK SECTION 
@@ -483,7 +480,6 @@ LATEST ARTICLE CARD SECTION ENDS
 LATEST ARTICLE SECTION END
 */
 
-
 /* 
 Footer
 */
@@ -522,22 +518,6 @@ footer {
 
 .footer-details li a:hover {
 	color: var(--Lime-Green);
-}
-
-.btn {
-	padding: 15px 40px;
-	background-image: var(--gradient);
-	border: 0;
-	border-radius: 30px;
-	margin-block: 1.5rem;
-}
-
-.btn a {
-	color: var(--White);
-}
-
-.btn:hover {
-	background-image: var(--hover-gradient);
 }
 
 .copyright {

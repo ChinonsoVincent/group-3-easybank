@@ -306,18 +306,17 @@ WHY CHOOSE EASYBANK SECTION
 /* 
 EASYBANK CARD SECTION 
 */
-.easybank-section-card {
-	max-width: 400px;
-}
-
 .easybank-card-section {
 	margin-top: 3em;
 	display: grid;
-	grid-template-columns: 1fr;
-	gap: 20px;
+	gap: 2em;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+}
+
+.easybank-section-card {
+	max-width: 400px;
 }
 
 .easybank-section-card h4 {
@@ -332,19 +331,6 @@ EASYBANK CARD SECTION
 	line-height: 1.5em;
 	color: var(--Grayish-Blue);
 }
-
-@media (min-width: 600px) {
-	.easybank-card-section {
-		margin-top: 3em;
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 20px;
-		text-align: center;
-		justify-content: center;
-		align-items: center;
-	}
-}
-
 /*
 EASYBANK CARD SECTION ENDS 
 */

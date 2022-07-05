@@ -52,7 +52,6 @@ a {
 	border: 0;
 	border-radius: 30px;
 	margin-block: 1.5rem;
-	color: var(--White);
 }
 
 .btn a {
@@ -67,6 +66,7 @@ a {
 NAVBAR
 */
 .navbar {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -137,6 +137,10 @@ NAVBAR
 }
 
 @media (min-width: 900px) {
+	.navbar {
+		position: fixed;
+	}
+
 	.nav-btn {
 		display: none;
 	}
@@ -253,6 +257,7 @@ HERO SECTION
 		flex-direction: row-reverse;
 		justify-content: space-between;
 		padding-left: 2em;
+		padding-top: 15vh;
 	}
 
 	.hero-image {
@@ -509,6 +514,7 @@ footer {
 .footer-details li a:hover {
 	color: var(--Lime-Green);
 }
+
 .copyright {
 	color: var(--Grayish-Blue);
 	margin-top: 20px;

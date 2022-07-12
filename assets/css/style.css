@@ -146,6 +146,8 @@ NAVBAR
 	}
 
 	.nav-container {
+		width: 100vw;
+		padding-inline: 2em;
 		display: flex;
 		align-items: center;
 	}
@@ -276,6 +278,7 @@ HERO SECTION
 		text-align: start;
 		padding-inline: 0px;
 		margin: 0;
+		padding-inline: 2em;
 	}
 }
 

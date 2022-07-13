@@ -9,6 +9,6 @@ links.addEventListener("click", () => {
 	links.classList.remove("show-links");
 });
 
-const date = document.getElementById("#date");
+const date = document.getElementById("date");
 const currentYear = new Date().getFullYear();
-date.textContent = currentYear;
+date.innerHTML = currentYear;

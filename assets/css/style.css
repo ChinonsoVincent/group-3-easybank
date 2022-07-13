@@ -275,7 +275,7 @@ HERO SECTION
 
 	.hero-details {
 		text-align: start;
-		padding-inline: 0px;
+		padding-inline: 0 !important;
 		margin: 0;
 	}
 }
